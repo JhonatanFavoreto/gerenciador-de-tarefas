@@ -28,3 +28,11 @@ console.log("Tarefa removida:", tarefaRemovida);
 console.log("Antes do unshift:", tarefas);
 tarefas.unshift('Correr na rua');
 console.log("Depois do unshift:", tarefas);
+
+
+//Etapa 4: Removendo a Primeira Tarefa
+console.log("Antes do shift:", tarefas);
+let tarefaRemovida2 = tarefas.shift();
+console.log("Depois do shift:", tarefas);
+console.log("Tarefa removida:", tarefaRemovida2);
+  
