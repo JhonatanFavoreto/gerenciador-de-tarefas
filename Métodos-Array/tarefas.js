@@ -53,3 +53,20 @@ console.log(`Depois do splice: ${tarefas}`);
 tarefas[3] = "Limpar a casa"
 console.log(`Lista de tarefas após o acréscimo ${tarefas}`)
 console.log(`Tarefa adicionada ${tarefas[3]}`)
+
+
+// Etapa 9: Concatenando Tarefas
+let tarefas2 = [
+    "Meditar",
+    "Jogar Futebol",
+    "Conversar com amigos",
+    "Estudar eletrônica",
+    "Ler mangás",
+    "Ler HQ",
+    "Estudar programação",
+    "Assistir animes",
+    "Ir ao cinema",
+    "Tocar violão",
+]
+console.log(`Tarefas combinadas: ${tarefas2.concat(tarefas2)}`);
+console.log(`Tarefas combinadas: ${tarefas2.concat(tarefas).join(', ')}`);
