@@ -75,3 +75,8 @@ console.log(`Tarefas combinadas: ${tarefas2.concat(tarefas).join(', ')}`);
 // Etapa 10: Transformando as Tarefas
 let fazerTarefas = tarefas.map(tarefas => `Fazer: ${tarefas}`);
 console.log(`${fazerTarefas.join(', ')}`);
+
+
+// Etapa 11: Filtrando Tarefas~
+let tarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
+console.log(`Tarefas filtradas (tarefas que têm mais de 15 caracteres): ${tarefas}`);
