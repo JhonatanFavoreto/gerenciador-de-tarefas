@@ -43,3 +43,7 @@ console.log(`A lista de tarefas inclui 'Ir à academia'?, ${tarefas.includes("Ir
 
 // Etapa 6: Transformando a Lista em String
 console.log("Tarefas como string:", tarefas.join(', '));
+
+
+// Etapa 7: Extraindo uma Parte da Lista
+console.log(`Parte das Tarefas (índices 2 a 5): ${tarefas.slice(2, 5)}`);
