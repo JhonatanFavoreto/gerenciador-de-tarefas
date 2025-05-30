@@ -85,3 +85,8 @@ console.log(`Tarefas filtradas (tarefas que têm mais de 15 caracteres): ${taref
 // Etapa 12: Ordenando as Tarefas
 let tarefasOrdenadas = tarefas.sort();
 console.log(`Tarefas ordenadas:, ${tarefasOrdenadas}`);
+
+
+// Etapa 13: Invertendo a Ordem das Tarefas
+let tarefasInvertidas = tarefas.reverse();
+console.log(`Tarefas invertidas:, ${tarefasInvertidas}`);
