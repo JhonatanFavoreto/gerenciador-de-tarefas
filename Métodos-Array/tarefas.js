@@ -22,3 +22,9 @@ console.log("Antes do pop:", tarefas);
 let tarefaRemovida = tarefas.pop();
 console.log("Depois do pop:", tarefas);
 console.log("Tarefa removida:", tarefaRemovida);
+
+
+// Etapa 3: Adicionando uma Tarefa no Início
+console.log("Antes do unshift:", tarefas);
+tarefas.unshift('Correr na rua');
+console.log("Depois do unshift:", tarefas);
