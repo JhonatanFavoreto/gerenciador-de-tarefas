@@ -77,6 +77,11 @@ let fazerTarefas = tarefas.map(tarefas => `Fazer: ${tarefas}`);
 console.log(`${fazerTarefas.join(', ')}`);
 
 
-// Etapa 11: Filtrando Tarefas~
+// Etapa 11: Filtrando Tarefas
 let tarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
 console.log(`Tarefas filtradas (tarefas que têm mais de 15 caracteres): ${tarefas}`);
+
+
+// Etapa 12: Ordenando as Tarefas
+let tarefasOrdenadas = tarefas.sort();
+console.log(`Tarefas ordenadas:, ${tarefasOrdenadas}`);
