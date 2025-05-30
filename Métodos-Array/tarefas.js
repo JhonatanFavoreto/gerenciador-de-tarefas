@@ -15,3 +15,10 @@ console.log("Antes do push:", tarefas);
 tarefas.push('Jogar vídeo-game');
 tarefas.push('Assistir um filme');
 console.log("Depois do push:", tarefas);
+
+
+// Etapa 2: Removendo a Última Tarefa
+console.log("Antes do pop:", tarefas);
+let tarefaRemovida = tarefas.pop();
+console.log("Depois do pop:", tarefas);
+console.log("Tarefa removida:", tarefaRemovida);
