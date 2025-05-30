@@ -1,15 +1,15 @@
 //  Etapa 1: Adicionando Novas Tarefas
 let tarefas = [
-    'Estudar Hitória', 
-    'Fazer exercícios de Filosofia', 
-    'Lavar o banheiro', 
-    'Comprar arroz', 
+    'Estudar JavaScript', 
+    'Fazer exercícios de matemática', 
+    'Lavar a louça', 
+    'Comprar mercado', 
     'Ir à academia', 
     'Ler um livro', 
-    'Fazer revisão dos estudos', 
-    'Escovar os dentes', 
-    'Estudar para o curso', 
-    'Formatar o computador'
+    'Fazer revisão para o teste', 
+    'Limpar o quarto', 
+    'Estudar para concurso', 
+    'Organizar o computador'
 ];
 console.log("Antes do push:", tarefas);
 tarefas.push('Jogar vídeo-game');
@@ -30,9 +30,11 @@ tarefas.unshift('Correr na rua');
 console.log("Depois do unshift:", tarefas);
 
 
-//Etapa 4: Removendo a Primeira Tarefa
+// Etapa 4: Removendo a Primeira Tarefa
 console.log("Antes do shift:", tarefas);
 let tarefaRemovida2 = tarefas.shift();
 console.log("Depois do shift:", tarefas);
 console.log("Tarefa removida:", tarefaRemovida2);
-  
+
+// Etapa 5: Verificando se uma Tarefa Existe
+console.log(`A lista de tarefas inclui 'Ir à academia'?, ${tarefas.includes("Ir à academia")}`);
