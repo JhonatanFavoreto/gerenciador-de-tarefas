@@ -36,5 +36,10 @@ let tarefaRemovida2 = tarefas.shift();
 console.log("Depois do shift:", tarefas);
 console.log("Tarefa removida:", tarefaRemovida2);
 
+
 // Etapa 5: Verificando se uma Tarefa Existe
 console.log(`A lista de tarefas inclui 'Ir à academia'?, ${tarefas.includes("Ir à academia")}`);
+
+
+// Etapa 6: Transformando a Lista em String
+console.log("Tarefas como string:", tarefas.join(', '));
